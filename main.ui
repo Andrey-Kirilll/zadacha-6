@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>658</width>
+    <width>772</width>
     <height>600</height>
    </rect>
   </property>
@@ -17,7 +17,7 @@
    <widget class="QPushButton" name="get_inform">
     <property name="geometry">
      <rect>
-      <x>160</x>
+      <x>70</x>
       <y>40</y>
       <width>301</width>
       <height>71</height>
@@ -38,7 +38,7 @@ text-decoration: underline;</string>
      <rect>
       <x>25</x>
       <y>160</y>
-      <width>621</width>
+      <width>721</width>
       <height>321</height>
      </rect>
     </property>
@@ -80,13 +80,32 @@ text-decoration: underline;</string>
     <column/>
     <column/>
    </widget>
+   <widget class="QPushButton" name="change_db">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>40</y>
+      <width>271</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(116, 116, 116);
+font: 75 16pt &quot;Segoe Script&quot;;
+text-decoration: underline;</string>
+    </property>
+    <property name="text">
+     <string>Внести изменения
+в базу данных</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>658</width>
+     <width>772</width>
      <height>20</height>
     </rect>
    </property>
